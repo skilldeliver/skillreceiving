@@ -1,0 +1,17 @@
+=== 22-03-2018 ===
+5.5, Eating Out, New Expense
+34.0, Clothes, New Expense
+41.79, Food, New Expense
+12.0, Eating Out, New Expense
+7.0, House, New Expense
+14.0, Pets, New Expense
+112.4, Bills, New Expense
+21.5, Transport, New Expense
+760.0, Salary, New Income
+=== 23-03-2018 ===
+15.0, Food, New Expense
+5.0, Sports, New Expense
+50.0, Savings, New Income
+200.0, Deposit, New Income
+=== 29-04-2000 ===
+5000.0, Salary, New Income
