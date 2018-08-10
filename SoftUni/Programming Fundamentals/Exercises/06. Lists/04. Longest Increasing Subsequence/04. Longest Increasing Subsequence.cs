@@ -10,7 +10,6 @@ namespace _04._Longest_Increasing_Subsequence
         {
             var sequence = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
             var longestSeq = FindLongestIncreasingSubsequence(sequence);
-            //   Console.WriteLine("  Length: {0}", longestSeq.Length);
             Console.WriteLine(string.Join(" ", longestSeq));
         }
 
