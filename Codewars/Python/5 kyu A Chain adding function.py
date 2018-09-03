@@ -1,0 +1,1 @@
+add = lambda v: type("", (int,), {"__call__": lambda self, v: self.__class__(self + v)})(v)
