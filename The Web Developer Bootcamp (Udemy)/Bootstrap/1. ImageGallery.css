@@ -1,0 +1,58 @@
+		body {
+			background-color: 	#DCDCDC;
+			padding-top: 70px;
+		}
+		.jumbotron {
+			color: #f08080;
+			background-color: #fff68f; 
+		}
+		.jumbotron {
+			color: #f08080;
+			background-color: #fff68f; 
+		}
+
+		.thumbnail {
+		    border-color: #f08080;
+		    background-color: #808080; 
+		}
+		.navbar {
+			background-color: #00e595;
+		}
+		.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		    background-color: #fff68f;
+ 		   color: #d7b8ff;
+									}
+		#else {
+			color: #00e595;
+			font-size: 40px;
+			font-weight: bold;		}
+
+		#else:visited {
+			color: #808080;
+			font-size: 40px;
+			font-weight: bold;		}
+
+		#else:hovered {
+			color: #00cccc;
+			font-size: 40px;
+			font-weight: bold;}						
+
+		.foralign {
+			text-align: center;
+		}							
+
+        
+        #temp {
+        	padding-right: 40px;
+        }
+		.navbar-nav>li>a, .navbar-brand  {
+			color:#fff7f7;
+            font-weight: bold;
+
+		}
+
+		.navbar-brand:hover, 
+        .navbar-brand:focus {
+        background-color: #fff68f;
+        color: #d7b8ff;
+    }

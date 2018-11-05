@@ -1,0 +1,41 @@
+
+
+div {
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 20px solid #bdc3c7;
+	float: left;
+	font-family: Source Sans Pro
+}
+
+div * {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h2 {
+	color: #2c3e50;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.first {
+	border-left: 3px solid #bdc3c7;
+	padding-left: 10px;
+}
+
+.other {
+	font-weight: 900px;
+}
+
+hr {
+	display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: inset;
+    border-width: 1px;
+}

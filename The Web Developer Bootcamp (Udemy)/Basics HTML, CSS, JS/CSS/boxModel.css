@@ -1,0 +1,20 @@
+p {
+	/*Content - Width and Height*/
+	text-align: center;
+	width: 50%;
+
+	/*Border*/
+	border: 2px solid orange;
+
+	/*Padding*/
+
+	/*padding: 10px;*/
+	padding-left: 40px;
+
+	/*Margin*/
+	/*margin: 100px*/;
+	/*margin: 20px 40px 500px 100px; /*top right bottom left*/
+	/*margin: 0 auto 0 auto;*/
+	margin: 50px 20px;
+
+}

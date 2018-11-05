@@ -1,0 +1,33 @@
+/*Star Selector*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant selector*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent selector*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute selector*/
+
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type*/
+
+ul:nth-of-type(3){
+	background: pink;
+}
+
+li:nth-of-type(3){
+	background: green;
+}
