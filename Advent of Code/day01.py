@@ -12,7 +12,7 @@ def frequency_changes():
 
 
 def frequency_match_twice():
-    frequencies = list()
+    frequencies = set()
     current_frequency = int()
 
     while True:
@@ -21,4 +21,4 @@ def frequency_match_twice():
             if current_frequency in frequencies:
                 print(current_frequency)
                 return
-            frequencies.append(current_frequency)
+            frequencies.add(current_frequency)
