@@ -1,6 +1,7 @@
 """
 --- Day 2: Inventory Management System ---
 """
+from utils import load_input
 
 
 def main():
@@ -40,14 +41,6 @@ def part_two(iterable):
                 if s1.index(l) not in diffs:
                     result += l
     return result
-
-
-def load_input(link):
-    import urllib.request
-
-    uf = urllib.request.urlopen(link)
-    content = uf.readlines()
-    return [line.decode('utf-8').strip('\r\n') for line in content]
 
 
 if __name__ == '__main__':
