@@ -1,6 +1,7 @@
 """
 --- Day 2: Inventory Management System ---
 """
+import itertools
 from utils import load_input
 
 
@@ -31,8 +32,6 @@ def part_one(iterable):
 
 
 def part_two(iterable):
-    import itertools
-
     result = str()
     for s1, s2 in itertools.combinations(iterable, 2):
         diffs = [i for i in range(len(s1)) if s1[i] != s2[i]]
