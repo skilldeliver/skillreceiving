@@ -47,6 +47,5 @@ def part_two(squares, rectangles):
         if all(rect_squares):
             return k
 
-
 if __name__ == '__main__':
     main()
