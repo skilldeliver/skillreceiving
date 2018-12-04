@@ -1,8 +1,7 @@
 import timeit
 import re
 from datetime import datetime as dt
-from collections import namedtuple  
-
+from collections import namedtuple
 
 from utils import load_input
 
