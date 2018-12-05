@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Users\\HP\\.virtualenvs\\Stani-Bogat-GTY3BsGV\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true
+}
