@@ -1,6 +1,6 @@
-﻿using System;
-using System.Linq;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _07._Sales_Report
 {
@@ -10,34 +10,49 @@ namespace _07._Sales_Report
         {
             int n = int.Parse(Console.ReadLine());
 
-            SortedDictionary<string, double> data = new SortedDictionary<string, double>();
+            var sales = new SortedDictionary<string, List<Sale>>();
 
             for (int i = 0; i < n; i++)
             {
-                Sale sale = new Sale(Console.ReadLine().Split(' '));
-                data[sale.Town] = sale.Price * sale.Quantity;
-            }
+                var sale = ReadSale();
 
-            foreach (var entry in data)
+                if (!sales.ContainsKey(sale.Town))
+                {
+                    sales[sale.Town] = new List<Sale>();
+                }
+
+              
+                    sales[sale.Town].Add(sale);
+            
+            }
+            foreach (var saleByTown in sales)
             {
-                Console.WriteLine($"{entry.Key} -> {entry.Value:F2}");
+                var town = saleByTown.Key;
+                var sumOfSales = saleByTown.Value.Sum(s =>s.Price * (decimal)s.Quantity);
+                Console.WriteLine($"{town} -> {sumOfSales :F2}");
             }
         }
-    }
 
+        static Sale ReadSale()
+        {
+            var saleParts = Console.ReadLine().Split();
+
+            return new Sale
+            {
+                Town = saleParts[0],
+                Product = saleParts[1],
+                Price = decimal.Parse(saleParts[2]),
+                Quantity = double.Parse(saleParts[3])
+
+            };
+        }
+    }
     class Sale
     {
-        public string Town;
-        public string Product;
-        public double Price;
-        public double Quantity;
-
-        public Sale(string[] arr)
-        {
-            Town = arr[0];
-            Product = arr[1];
-            Price = double.Parse(arr[2]);
-            Quantity = double.Parse(arr[3]);
-        }
+        public string Town { get; set; }
+        public string Product { get; set; }
+        public decimal Price { get; set; }
+        public double Quantity { get; set; }
     }
+}
 }
