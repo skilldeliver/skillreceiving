@@ -23,8 +23,10 @@ Learning by doing.  Problem solving in one place.
 
 # Table of content
 * [Advent of Code](https://github.com/skilldeliver/Skillreceiving/tree/master/Advent%20of%20Code)
+    * **5 Python problems** (up to day 5)
 * [Codewars](https://github.com/skilldeliver/Skillreceiving/tree/master/Codewars)
 * [Hack Bulgaria](https://github.com/skilldeliver/Skillreceiving/tree/master/Hack%20Bulgaria)
+    * **8 Python problems** (first and second week of Programming101Python 2018)
 * [HackerRank](https://github.com/skilldeliver/Skillreceiving/tree/master/HackerRank)
 * [Newbie Python](https://github.com/skilldeliver/Skillreceiving/tree/master/Newbie-Python)
 * [SoftUni](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni)
