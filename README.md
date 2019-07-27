@@ -31,5 +31,6 @@ Learning by doing.  Problem solving in one place.
 * [Newbie Python](https://github.com/skilldeliver/Skillreceiving/tree/master/Newbie-Python)
 * [SoftUni](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni)
     * [Programming Basics](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Basics)
+        * **126 Java problems** (71 from the course and 55 exams, Programming Basics with Java 2019)
     * [Programming Fundamentals](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Fundamentals)
 * [The Web Developer Bootcamp](https://github.com/skilldeliver/Skillreceiving/tree/master/The%20Web%20Developer%20Bootcamp%20(Udemy))
