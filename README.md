@@ -22,7 +22,7 @@
 Learning by doing.  Problem solving in one place.
 
 # Table of content
-* [Advent of Code](Advent of Code/)
+* [Advent of Code](./Advent of Code/)
 * Codewars
 * Hack Bulgaria
 * Newbie Python
