@@ -1,3 +1,5 @@
 # Practice
-[](https://www.codewars.com/users/skilldeliver/badges/large)
+<a>
+    <img src="https://i.imgur.com/WX5gvAa.png" align="center">
+</a>
 Learning by doing.  Problem solving in one place.
