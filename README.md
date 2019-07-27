@@ -28,9 +28,10 @@ Learning by doing.  Problem solving in one place.
 * [Hack Bulgaria](https://github.com/skilldeliver/Skillreceiving/tree/master/Hack%20Bulgaria)
     * **8 Python problems** (first and second week of Programming101Python 2018)
 * [HackerRank](https://github.com/skilldeliver/Skillreceiving/tree/master/HackerRank)
+    * **21 Python problems**
 * [Newbie Python](https://github.com/skilldeliver/Skillreceiving/tree/master/Newbie-Python)
 * [SoftUni](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni)
     * [Programming Basics](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Basics)
-        * **126 Java problems** (71 from the course and 55 exams, Programming Basics with Java 2019)
+        * **126 Java problems** (71 from the course and 55 exams)
     * [Programming Fundamentals](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Fundamentals)
 * [The Web Developer Bootcamp](https://github.com/skilldeliver/Skillreceiving/tree/master/The%20Web%20Developer%20Bootcamp%20(Udemy))
