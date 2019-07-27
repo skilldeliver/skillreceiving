@@ -3,7 +3,7 @@
     <img src="https://www.codewars.com/users/skilldeliver/badges/large" align="center">
 </a>
 <a href="https://www.hackerrank.com/skilldeliver">
-    <img height=40 src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/styleguide/logo_wordmark-f5c5eb61ab0a154c3ed9eda24d0b9e31.svg" align="center">
+    <img height=40 src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" align="center">
 </a>
 <br>
 <a href="https://softuni.bg/users/profile/show/skilldeliver">
