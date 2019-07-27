@@ -23,11 +23,11 @@ Learning by doing.  Problem solving in one place.
 
 # Table of content
 * [Advent of Code](https://github.com/skilldeliver/Skillreceiving/tree/master/Advent%20of%20Code)
-* Codewars
-* Hack Bulgaria
-* Newbie Python
-* HackerRank
-* SoftUni
-    * Programming Basics
-    * Programming Fundamentals
-* The Web Developer Bootcamp
+* [Codewars](https://github.com/skilldeliver/Skillreceiving/tree/master/Codewars)
+* [Hack Bulgaria](https://github.com/skilldeliver/Skillreceiving/tree/master/Hack%20Bulgaria)
+* [HackerRank](https://github.com/skilldeliver/Skillreceiving/tree/master/HackerRank)
+* [Newbie Python](https://github.com/skilldeliver/Skillreceiving/tree/master/Newbie-Python)
+* [SoftUni](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni)
+    * [Programming Basics](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Basics)
+    * [Programming Fundamentals](https://github.com/skilldeliver/Skillreceiving/tree/master/SoftUni/Programming%20Fundamentals)
+* [The Web Developer Bootcamp](https://github.com/skilldeliver/Skillreceiving/tree/master/The%20Web%20Developer%20Bootcamp%20(Udemy))
