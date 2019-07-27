@@ -1,2 +1,33 @@
+
+<div style="margin: 100px 100px 100px 100px">
+<a>
+    <img src="https://www.codewars.com/users/skilldeliver/badges/large" align="center">
+</a>
+</div>
+<br />
+<div>
+<a href="https://www.hackerrank.com/skilldeliver">
+    <img height=40 src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" align="center">
+</a>
+</div>
+<br />
+<div>
+<a href="https://softuni.bg/users/profile/show/skilldeliver">
+    <img height=60 src="https://softuni.bg/content/images/svg-logos/software-university-logo.svg" align="center" >
+</a>
+</div>
+    
+    
 # Practice
 Learning by doing.  Problem solving in one place.
+
+# Table of content
+* [Advent of Code](https://github.com/skilldeliver/Skillreceiving/tree/master/Advent%20of%20Code)
+* Codewars
+* Hack Bulgaria
+* Newbie Python
+* HackerRank
+* SoftUni
+    * Programming Basics
+    * Programming Fundamentals
+* The Web Developer Bootcamp
