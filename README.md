@@ -22,7 +22,7 @@
 Learning by doing.  Problem solving in one place.
 
 # Table of content
-* [Advent of Code](./Advent of Code/)
+* [Advent of Code](https://github.com/skilldeliver/Skillreceiving/tree/master/Advent%20of%20Code)
 * Codewars
 * Hack Bulgaria
 * Newbie Python
