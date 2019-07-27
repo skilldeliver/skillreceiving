@@ -20,3 +20,14 @@
     
 # Practice
 Learning by doing.  Problem solving in one place.
+
+# Table of content
+* Advent of code
+* Codewars
+* Hack Bulgaria
+* Newbie Python
+* HackerRank
+* SoftUni
+    * Programming Basics
+    * Programming Fundamentals
+* The Web Developer Bootcamp
