@@ -13,7 +13,7 @@
 <br />
 <div>
 <a href="https://softuni.bg/users/profile/show/skilldeliver">
-    <img height=40 src="https://softuni.bg/content/images/svg-logos/software-university-logo.svg" align="center" >
+    <img height=80 src="https://softuni.bg/content/images/svg-logos/software-university-logo.svg" align="center" >
 </a>
 </div>
     
