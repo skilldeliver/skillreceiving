@@ -16,7 +16,7 @@ using namespace std;
 
 // TEXT PROCESSING
 
-// getline(cin, text);
+// DON'T FORGET TO getline(cin, text);
 
 
 vector<string> split_text(string text)
@@ -114,8 +114,27 @@ vector<int> print_spiral(int end_row, int end_col, int arr[R][C])
             }
             row++;
         }
+    }
+    return spiral;
 
+
+// RANDOMIZING NUMBERS
+
+// DON'T FORGET TO SEED -> srand(time(NULL)); AND ->
+/*
+   #include <random>
+   #include <ctime>
+ */
+
+    double rand_num(double min, double max)
+    {
+        rand();
+        return min + ((double)rand() / RAND_MAX) * (max - min);
     }
 
-    return spiral;
+    int rand_num(int min, int max)
+    {
+        return rand() % (max - min) + min;
+    }
+
 }
