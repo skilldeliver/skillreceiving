@@ -39,6 +39,38 @@ vector<string> split_text(string text)
 
 // MATRIX INPUT, PRINTING
 
+
+// DYNAMIC MATRIX INPUT
+void input_dynamic()
+{
+    unsigned n, m;
+
+    cout << "Enter the number of rows: ";
+    cin >> m;
+    cout << "Enter the number of columns";
+    cin >> n;
+
+    int* *arr = new int*[m];
+
+    for (int i = 0; i <= m - 1; ++i) {
+        arr[i] = new int[n];
+    }
+
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << ">>>";
+            cin >> arr[i][j];
+        }
+    }
+
+    for (int i = 0; i < m; i++)
+        delete [] arr[i];
+    delete [] arr;
+    arr = NULL;
+}
+
+
+
 // SPIRAL PRINT TOP-BOT -> LEFT-RIGHT -> BOT-TOP -> RIGHT-LEFT
 
 void print_spiral(int end_row, int end_col, int arr[R][C])
