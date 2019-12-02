@@ -1,5 +1,6 @@
 
 def part_one(source_data, noun, verb):
+
 	data = source_data.copy()
 	data[1], data[2] = noun, verb
 
@@ -17,10 +18,14 @@ def part_one(source_data, noun, verb):
 
 
 def part_two(source_data, search):
-	for noun in range(100):
-		for verb in range(100):
-			if part_one(source_data, noun, verb) == search:
-				return 100 * noun + verb
+	initial = part_one(source_data, 0, 0) # first value
+	increase = part_one(source_data, 1, 0) - 99 - initial # the increas for the outer loop
+
+	the_range = search - initial
+	noun = the_range // increase
+	verb = the_range % increase
+
+	return noun + verb
 
 
 with open('inputs/day02.txt') as f:
