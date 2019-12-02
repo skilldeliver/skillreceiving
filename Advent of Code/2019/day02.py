@@ -17,8 +17,8 @@ def part_one(source_data, noun, verb):
 
 
 def part_two(source_data):
-	for noun in range(99):
-		for verb in range(99):
+	for noun in range(100):
+		for verb in range(100):
 			if part_one(source_data, noun, verb) == 19690720:
 				return 100 * noun + verb
 
