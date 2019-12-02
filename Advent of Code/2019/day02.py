@@ -16,14 +16,14 @@ def part_one(source_data, noun, verb):
 	return data[0]
 
 
-def part_two(source_data):
+def part_two(source_data, search):
 	for noun in range(100):
 		for verb in range(100):
-			if part_one(source_data, noun, verb) == 19690720:
+			if part_one(source_data, noun, verb) == search:
 				return 100 * noun + verb
 
 
 with open('inputs/day02.txt') as f:
 	source_data = [int(number) for number in f.readline().split(',')]
 	print(part_one(source_data, 12, 2))
-	print(part_two(source_data))
+	print(part_two(source_data, search))
