@@ -26,4 +26,4 @@ def part_two(source_data, search):
 with open('inputs/day02.txt') as f:
 	source_data = [int(number) for number in f.readline().split(',')]
 	print(part_one(source_data, 12, 2))
-	print(part_two(source_data, search))
+	print(part_two(source_data, 19690720))
