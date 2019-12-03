@@ -1,4 +1,3 @@
-
 def part_one(source_data, noun, verb):
 
 	data = source_data.copy()
@@ -28,7 +27,10 @@ def part_two(source_data, search):
 	return noun + verb
 
 
-with open('inputs/day02.txt') as f:
+with open('inputs/day03.txt') as f:
 	source_data = [int(number) for number in f.readline().split(',')]
+
 	print(part_one(source_data, 12, 2))
 	print(part_two(source_data, 19690720))
+
+	print(e - s)
