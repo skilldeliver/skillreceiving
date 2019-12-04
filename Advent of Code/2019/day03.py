@@ -1,3 +1,5 @@
+from time import time
+
 class Line:
 	def __init__(self, x1, y1, x2, y2, prev, distance=0):
 		self.x1, self.y1, self.x2, self.y2 = x1, y1, x2, y2
@@ -58,7 +60,13 @@ def solve(wire_1_dirs, wire_2_dirs):
 	return min([abs(i[0]) + abs(i[1]) for i in intersects]), min_dist
 
 with open('inputs/day03.txt') as f:
+
+	s = time()
 	line_1, line_2 = f.readlines()
 	wire_1_dirs = [d.strip() for d in line_1.split(',')]
 	wire_2_dirs = [d.strip() for d in line_2.split(',')]
-	print(solve(wire_1_dirs, wire_2_dirs))
+
+	print(len(wire_1_dirs), len(wire_2_dirs))
+	# print(solve(wire_1_dirs, wire_2_dirs))
+	e = time()
+	print(1000 * (e - s))
