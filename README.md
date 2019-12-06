@@ -17,12 +17,6 @@
 </a>
 </div>
 <br />
-<div>
-<a href="https://computerscience.nbu.bg/en/">
-    <img height=60 src="https://i.imgur.com/HzwXEBk.png" align="center" >
-</a>
-</div>
-
     
     
 # Practice
