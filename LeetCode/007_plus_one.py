@@ -8,4 +8,3 @@ class Solution(object):
         num += 1
 
         return [int(d) for d in str(num)]
-
