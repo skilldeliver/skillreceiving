@@ -7,6 +7,7 @@ class Solution(object):
         :type k: int
         :rtype: None Do not return anything, modify nums in-place instead.
         """
+
         if k % len(nums) != 0:
         	part = len(nums) - (k % len(nums))
         	nums += nums[:part]

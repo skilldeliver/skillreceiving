@@ -1,5 +1,6 @@
 
 # https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -12,12 +13,14 @@ class Solution(object):
             for j in range(i + 1, len(prices)):
                 if prices[i] < prices[j]:
                     for k in indexes:
+                        replaced = False
+
                         if k[0] <= i < k[1] and prices[j] - prices[i] > prices[k[1]] - prices[k[0]]:
-                            print('once', k, i, j)
                             indexes.remove(k)
                             indexes.append((i, j))
-                            break
-                    else:
+                            replaced = True
+
+                    if not replaced:
                         indexes.append((i, j))
         return indexes
 
