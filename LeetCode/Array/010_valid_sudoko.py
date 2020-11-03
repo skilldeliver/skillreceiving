@@ -11,7 +11,6 @@ class Solution(object):
 
     @staticmethod
     def isValidColumn(col, board):
-#        digits = [r[col] for r in board if r[col].isdigit()]
         digits = list()
 
         for row in board:
@@ -32,7 +31,6 @@ class Solution(object):
                     if item.isdigit():
                         box.append(item)
 
-            #box = [item for k in range(3) for item in row[k][j-3:j] if item.isdigit()]
             if len(box) != len(set(box)):
                 return False
         return True
