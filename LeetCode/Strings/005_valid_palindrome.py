@@ -11,4 +11,4 @@ class Solution:
 		for c in s:
 			if c in alphanumeric_chars:
 				filtered_s += c 
-		return filtered_s.lower() == filtered_s[::-1].lower()        
+		return filtered_s.lower() == filtered_s[::-1].lower()
