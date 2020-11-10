@@ -1,3 +1,5 @@
+import numpy as np 
+
 class Solution:
     def rotate(self, matrix) -> None:
         """
@@ -32,7 +34,7 @@ class Solution:
         #  v v v     v v   v   v
         # [7,4,1],[6,5,2],[9,8,3]
         #  v v v   v v v   v v v
-        # [7,4,1],[6,5,2],[9,8,3]
+        # [7,4,1],[8,5,2],[9,6,3]
 
         n = len(matrix)
 
@@ -43,13 +45,16 @@ class Solution:
         # begin swaping
         for i in range(n-1):
             for j in range(n-i-1):
-                print("i, j: ", i, j)
-                print("[i][j], [n-j-1][n-i-1]: ", matrix[i][j], matrix[n-j-1][n-i-1], end="\n\n")
                 matrix[i][j], matrix[n-j-1][n-i-1] = matrix[n-j-1][n-i-1], matrix[i][j] 
 
-        return matrix 
+        return matrix
+
+    def rotate2(self, matrix) -> None:
+        matrix = np.array(matrix)
+        return matrix @ np.array([[0, 1],[-1, 0]])
+
 
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
 s = Solution()
-print(s.rotate(matrix))
+print(s.rotate2(matrix))
