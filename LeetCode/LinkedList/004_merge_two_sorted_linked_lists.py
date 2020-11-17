@@ -48,7 +48,7 @@ class Solution:
             nodes.append(l2.val)
 
         nodes = sorted(nodes)
-        print(nodes)
+        print(nodes)k
         head = ListNode(nodes[0])
 
         for n in nodes[1:]:
