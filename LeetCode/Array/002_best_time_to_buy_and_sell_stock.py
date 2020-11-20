@@ -7,23 +7,21 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        indexes = list()
+        if len(prices) < 2:
+            return 0
+
+        max_total = -2**31
 
         for i in range(len(prices) - 1):
             for j in range(i + 1, len(prices)):
-                if prices[i] < prices[j]:
-                    for k in indexes:
-                        replaced = False
+                total = 0
+                if prices[j] > prices[i]:
+                    total += prices[j] - prices[i]
+                total += Solution.maxProfit(self, prices[j+1:])
 
-                        if k[0] <= i < k[1] and prices[j] - prices[i] > prices[k[1]] - prices[k[0]]:
-                            indexes.remove(k)
-                            indexes.append((i, j))
-                            replaced = True
-
-                    if not replaced:
-                        indexes.append((i, j))
-        return indexes
-
+                if total > max_total:
+                    max_total = total
+        return max_total
 
 s = Solution()
-print(s.maxProfit([7,1,5,3,6,4]))
+print(s.maxProfit( [7,1,5,3,6,4]))
