@@ -5,6 +5,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
 class Solution:
     passed = False
 
@@ -13,10 +14,7 @@ class Solution:
             return True
 
         if root.left == root.right == None:
-            if not Solution.passed:
-                return True
-            else:
-                return root.val
+            return root.val
         elif not Solution.passed:
             Solution.passed = True
         left = right = None
@@ -27,17 +25,26 @@ class Solution:
         if root.right:
             right = Solution.searchTree(self, root.right)
 
-        if type(left) is list:
+        if type(left) is list and type(right) is list:
             return [*left, root.val, *right]#, left < root.val < right
+        elif type(left) is list:
+            return [*left, root.val, right]
+        elif type(right) is list:
+            return [left, root.val, *right]
         else:
             return [left, root.val, right]
 
     def isValidBST(self, root: TreeNode) -> bool:
         l = Solution.searchTree(self, root)
+        print(l)
+        if not root or type(l) is int:
+            return True
         l = [i for i in l if i is not None]
-        return sorted(l) == l
+        return sorted(l) == l and len(set(l)) == len(l)
 
+s = Solution()
 r = TreeNode(val=2, left=TreeNode(val=1), right=TreeNode(val=3))
 t = TreeNode(val=5, left=TreeNode(val=1, left=TreeNode(val=-1), right=TreeNode(val=3)), right=TreeNode(val=7, left=TreeNode(6), right=TreeNode(8)))
-s = Solution()
-print(s.isValidBST(t))
+z = TreeNode(val=5, left=TreeNode(1), right=TreeNode(4, left=TreeNode(3), right=TreeNode(6)))
+r = TreeNode(1)
+print(s.isValidBST(r))
