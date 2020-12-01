@@ -21,3 +21,4 @@ class Solution:
 
 s = Solution()
 print(s.countAndSay(4))
+# 0044291705
