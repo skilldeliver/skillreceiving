@@ -7,7 +7,7 @@ def part_one(data, find_max=True):
     upper = lambda x: range(x.start+len(x)//2, x.stop)
 
     for seat in data:
-        all_seats = (range(128), range(8))
+        row, column = range(128), range(8)
 
         for char in seat:
             if char == 'F':
