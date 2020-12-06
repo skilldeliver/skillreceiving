@@ -24,6 +24,6 @@ def oneliner(data, part=1):
     return sum([len(set(a for p in g.split() for a in p)) for g in data]) if part == 1 else sum([len(set(list([chr(97+i) for i in range(26)])).intersection(*[set(a for a in p) for p in g.split()])) for g in data]) 
 
 with open('inputs/day06.txt') as f:
-    data = [p for p in f.read().split('\n\n')]
-    print(oneliner(data))
-    print(oneliner(data, part=2))
+    data = [p for p in f.read().split('\n\r')]
+    print(part_one(data))
+    print(part_two(data))

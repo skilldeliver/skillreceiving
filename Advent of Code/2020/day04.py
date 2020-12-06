@@ -47,6 +47,6 @@ def part_two(data):
 
 
 with open('inputs/day04.txt') as f:
-    data = [p for p in f.read().split('\n\n')]
+    data = [p for p in f.read().split('\n\r')]
     print(part_one(data))
     print(part_two(data))
