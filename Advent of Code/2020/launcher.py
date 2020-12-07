@@ -4,6 +4,19 @@ from datetime import datetime
 
 current_day = str(datetime.now().day).zfill(2)
 
+snippet = f"""
+def part_one(data):
+    pass
+
+def part_two(data):
+    pass
+
+with open('inputs/day{current_day}.txt') as f:
+    data = [p for p in f.read().split('\\n\\r')]
+    print(part_one(data))
+    print(part_two(data))
+"""
+
 def create_files()->None:
     """
     Creates files for the source code of the solution and
@@ -12,8 +25,8 @@ def create_files()->None:
     source_code = f'day{current_day}.py'
     input_file = f'inputs/day{current_day}.txt'
 
-    with open(source_code, 'w') as _, open(input_file, 'w') as _:
-        pass
+    with open(source_code, 'w') as f, open(input_file, 'w') as _:
+        f.write(snippet)
 
     print(f'Day{current_day}. files created!')
 
