@@ -51,16 +51,16 @@ import static java.util.stream.Collectors.toList;
 
 
 
-// abstract class Product { 
-//     int multiplyBy;
-//     public Product( int multiplyBy ) {
-//         this.multiplyBy = multiplyBy;
-//     }
+abstract class Product { 
+    int multiplyBy;
+    public Product( int multiplyBy ) {
+        this.multiplyBy = multiplyBy;
+    }
 
-//     public int mutiply(int val) {
-//        return multiplyBy * val;
-//     }
-// }
+    public int mutiply(int val) {
+       return multiplyBy * val;
+    }
+}
 
 // class TimesTwo extends Product {
 //     public TimesTwo() {
